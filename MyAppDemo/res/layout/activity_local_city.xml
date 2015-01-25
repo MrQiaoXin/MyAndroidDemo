@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_local_city"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >      
+
+ <!--  
+                <RelativeLayout
+                    android:id="@+id/rl_local_city_current"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@color/line"
+                    android:paddingLeft="11.25dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/local_city_current_text"
+                        android:textColor="@color/orangefont"
+                        android:textSize="13.5dp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/borderColor" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_local_city_current_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="55.125dp"
+                    android:background="@color/white"
+                    android:paddingLeft="11.25dp" >
+
+                    <TextView
+                        android:id="@+id/tv_local_city_current"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text=""
+                        android:textColor="@color/blackfont"
+                        android:textSize="16.875sp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/borderColor" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_local_city_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@color/line"
+                    android:paddingLeft="11.25dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/local_city_location_text"
+                        android:textColor="@color/orangefont"
+                        android:textSize="13.5dp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/borderColor" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_local_city_location_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="55.125dp"
+                    android:background="@color/white"
+                    android:paddingLeft="11.25dp" >
+
+                    <TextView
+                        android:id="@+id/tv_local_city_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/blackfont"
+                        android:textSize="16.875sp" />
+
+                    <ImageView
+                        android:id="@+id/in_location_select"
+                        android:layout_width="28.125dp"
+                        android:layout_height="28.125dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="12.375dp"
+                        android:background="@drawable/ic_selected"
+                        android:visibility="invisible" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/borderColor" />
+                    -->
+                <!-- 
+                <RelativeLayout
+                    android:id="@+id/rl_local_city_popular"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:background="@color/line"
+                    android:paddingLeft="11.25dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/local_city_hot_text"
+                        android:textColor="@color/orangefont"
+                        android:textSize="13.5dp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/borderColor" />
+                
+                <ListView
+                    android:id="@+id/lv_popular_city_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@color/borderColor"
+                    android:dividerHeight="1dp" >
+                </ListView>
+                -->
+
+                <ExpandableListView
+                    android:id="@+id/myExpandableListView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:groupIndicator="@null" 
+                    android:scrollbars="none"/>
+        
+
+        <com.qiaoxin.myappdemo.widget.QuickSlideBar
+            android:id="@+id/quickSlideBar1"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom" />
+    </FrameLayout>
+
+</LinearLayout>

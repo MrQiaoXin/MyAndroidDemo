@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingLeft="11.25dp"
+    android:minHeight="55.125dp" >
+
+    <TextView
+        android:id="@+id/tv_city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/blackfont"
+        android:textSize="16.875sp" />
+
+    <TextView
+        android:id="@+id/tv_province_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3.375dp"
+        android:layout_toRightOf="@+id/tv_city_name"
+        android:textColor="@color/blackfont"
+        android:textSize="16.875sp" />
+
+    <ImageView
+        android:id="@+id/is_select"
+        android:layout_width="28.125dp"
+        android:layout_height="28.125dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="13.5dp"
+        android:layout_marginRight="12.375dp"
+        android:background="@drawable/ic_selected"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true" >
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="24dp"
+        android:text="选择时间" />
+
+    <Button
+        android:id="@+id/go_to_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/go_to_plate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="拍照" />
+
+    <TextView
+        android:id="@+id/go_to_plate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:text="选择车牌" />
+
+    <TextView
+        android:id="@+id/go_to_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/go_to_plate"
+        android:layout_alignBottom="@+id/go_to_plate"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        android:text="选择城市" />
+
+    <Button
+        android:id="@+id/go_to_location_manager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/go_to_camera"
+        android:layout_alignBottom="@+id/go_to_camera"
+        android:layout_alignRight="@+id/go_to_city"
+        android:layout_marginRight="20dp"
+        android:text="高德定位" />
+
+</RelativeLayout>

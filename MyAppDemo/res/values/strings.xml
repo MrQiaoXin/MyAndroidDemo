@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- app -->
+    <string name="app_name">桔子车Deom</string>
+    <string name="hello">Hello app!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- image description -->
+    <string name="imagecontent_desc">desc</string>
+    <string name="splash">splash</string>
+    <string name="logo">logo</string>
+    <string name="settings">settings</string>
+    <string name="title">title</string>
+    <string name="contentDesc">desc</string>
+    <!-- exception string -->
+    <string name="internet_error">连接服务器失败，请稍候再试</string>
+    <string name="loading_text">加载中……</string>
+    <!-- main menu text -->
+    <string name="menu_account">我</string>
+    <string name="menu_shop">门店</string>
+    <string name="menu_spend">消费</string>
+    <string name="menu_insurance">车险</string>
+    <string name="menu_setting">设置</string>
+    <!-- shop tab text -->
+    <string name="tab_one">我的门店</string>
+    <string name="tab_two">门店切换</string>
+    <string name="currentshop_name">店铺名称</string>
+    <string name="currentshop_phone">店铺电话</string>
+    <string name="currentshop_address">店铺地址</string>
+    <string name="currentshop_wechat">店铺微信号</string>
+    <string name="currentshop_points">积分</string>
+    <string name="currentshop_gift">积分礼品</string>
+    <string name="shop_switch">切换店铺</string>
+    <!-- login -->
+    <string name="login_btn">立即登录</string>
+    <string name="login_title">登录</string>
+    <string name="login_findpassword">忘记密码</string>
+    <string name="login_text_username">请输入账号</string>
+    <string name="login_text_password">请输入密码</string>
+    <string name="login_get_verification_code">获取验证码</string>
+    <string name="login_text_verification_code">验证码: </string>
+    <string name="login_service_error">连接服务器失败，请稍候再试</string>
+    <string name="login_text_tips">请输入手机号码</string>
+    <string name="login_phone_empty_error">找不到用户,请确认手机号码</string>
+    <string name="login_verification_code_tips">请获取验证码后，输入验证码</string>
+    <string name="login_verification_error">验证失败，请确认验证码或手机号</string>
+    <string name="login_get_verification_code_again">重新获取</string>
+    <!-- regist -->
+    <string name="regist_title">注册</string>
+    <string name="regist_btn">继续</string>
+    <string name="regist_text_username">请输入账号</string>
+    <string name="regist_text_code">请输入验证码</string>
+    <string name="regist_text_confirm_password">请输入确认密码</string>
+    <string name="regist_text_confirm">确认</string>
+    <!-- spend -->
+    <string name="spend_bar_title">消费信息</string>
+    <string name="spend_list_title_shopname">店铺</string>
+    <string name="spend_list_title_name">名称</string>
+    <string name="spend_list_title_price">价格</string>
+    <string name="spend_list_title_date">时间</string>
+    <!-- points -->
+    <string name="points_bar_title">积分信息</string>
+    <string name="gift_bar_title">可兑换礼品</string>
+    <string name="gift_need_points">所需积分：</string>
+    <!-- account -->
+    <string name="account_bar_title">个人信息</string>
+    <string name="account_tab_two">我的车</string>
+    <string name="account_info_bar_title">账户信息</string>
+    <!--
+    <string name="account_name">姓名</string>
+    <string name="account_phone">手机号码</string>
+    -->
+    <string name="account_cars">汽车列表</string>
+    <string name="account_logout_btn">注销</string>
+    <string name="account_logoutConfirm_title">提示</string>
+    <string name="account_logoutConfirm_tips">确定注销吗?</string>
+    <string name="account_logoutConfirm_confirm">确认</string>
+    <string name="account_logoutConfirm_cancel">取消</string>
+    <!-- account_cars -->
+    <string name="account_cars_select_bar_text">选择车辆</string>
+    <string name="account_cars_bar_text">车辆列表</string>
+    <string name="account_cars_plate">车牌:</string>
+    <string name="account_cars_type">车型:</string>
+    <string name="account_cars_brand">品牌:</string>
+    <string name="account_cars_username">姓名:</string>
+    <string name="account_cars_petrol_type">油品:</string>
+    <string name="account_cars_insurance">车险:</string>
+    <string name="account_cars_peccancy">违章:</string>
+    <string name="account_cars_peccancy_text">查看违章信息</string>
+    <string name="account_cars_insurance_text">查看投保详细</string>
+    <string name="account_cars_intelligent_insurance">智能车险</string>
+    <!-- account_cars_info -->
+    <string name="account_cars_info_bar_text">车辆信息</string>
+    <string name="account_cars_info_bar_edit">编辑</string>
+    <string name="account_cars_info_line_text">必填信息</string>
+    <string name="account_cars_info_the_host_city_text">所在城市</string>
+    <string name="account_cars_info_plate">车牌</string>
+    <string name="account_cars_info_username">姓名</string>
+    <string name="account_cars_info_the_car_frame_text">车架号</string>
+    <string name="account_cars_info_the_engine_number">发动机号</string>
+    <string name="account_cars_info_the_regist_date">注册日期</string>
+    <string name="account_cars_info_the_certification_date">发证日期</string>
+    <string name="account_cars_info_line_text2">选填信息</string>
+    <string name="account_cars_info_the_kilometres">公里数</string>
+    <string name="account_cars_info_the_insurance_date">保险起始日期</string>
+    <string name="account_cars_info_line_text3">系统识别信息</string>
+    <string name="account_cars_info_the_oil_mass">油缸升数</string>
+    <string name="account_cars_info_the_big_car">大车</string>
+    <string name="account_cars_info_the_first_price">新车价</string>
+    <string name="account_cars_info_the_second_price">二手车价</string>
+    <!-- add_cars_info -->
+    <string name="add_cars_info_bar_text">添加车辆</string>
+    <string name="add_cars_info_plate_prefix_bar_text">车牌号类型选择</string>
+    <string name="add_cars_info_save">保存</string>
+    <string name="add_cars_info_the_host_city_text">选择所在城市</string>
+    <string name="add_cars_info_plate">填写车牌号</string>
+    <string name="add_cars_info_username">填写车主姓名</string>
+    <string name="add_cars_info_the_car_frame_text">填写车架号</string>
+    <string name="add_cars_info_the_engine_number">填写发动机号</string>
+    <string name="add_cars_info_the_regist_date">选择注册日期</string>
+    <string name="add_cars_info_the_certification_date">选择发证日期</string>
+    <string name="add_cars_info_the_kilometres">填写公里数</string>
+    <string name="add_cars_info_the_insurance_date">选择起始日期</string>
+    <string name="add_cars_info_the_oil_mass">选择油缸升数</string>
+    <string name="add_cars_info_the_petrol_type">选择油品</string>
+    <!-- car -->
+    <string name="cardetail_bar_title">汽车信息</string>
+    <string name="cardetail_plate">车牌</string>
+    <string name="cardetail_model">车型</string>
+    <string name="cardetail_vin">车辆vin</string>
+    <string name="cardetail_insuranceRenewMonth">保险月</string>
+    <string name="cardetail_purchaseYear">购买年份</string>
+    <string name="cardetail_purchaseMonth">购买月份</string>
+    <string name="cardetail_mileage">公里数</string>
+    <string name="cardetail_tyreStatus">轮胎状态</string>
+    <string name="cardetail_brakeStatus">刹车状态</string>
+    <string name="cardetail_maintenance_time">维护时间</string>
+    <string name="car_bar_title">汽车列表</string>
+    <string name="car_update_success">汽车更新成功</string>
+    <string name="car_update_failure">汽车更新失败</string>
+    <!-- setting -->
+    <string name="general_set">基本设置</string>
+    <string name="other_set">其他设置</string>
+    <string name="setting_bar_title">我的账户</string>
+    <!-- shop detail -->
+    <string name="shopdetail_bar_title">店铺信息</string>
+    <!-- car insurance -->
+    <string name="carinsurance_bar_title">车险</string>
+    <string name="carsinsurance_bar_title">请选择车辆</string>
+    <!-- notice -->
+    <string name="notice_bar_title">消费信息详情</string>
+    <string name="order_number">订单号</string>
+    <string name="order_shop">店铺</string>
+    <string name="order_time">时间</string>
+    <string name="order_amount">金额</string>
+    <string name="order_points">可获取积分</string>
+    <string name="order_item">包含物品：</string>
+    <!-- version -->
+    <string name="version_title">软件升级</string>
+    <string name="version_content">发现新版本,建议立即更新使用</string>
+    <string name="version_noupdate">当前已是最新版本</string>
+    <string name="version_leftbutton">更新</string>
+    <string name="version_rightbutton">取消</string>
+    <!-- download -->
+    <string name="progress_text">0%</string>
+    <!-- ================new================= -->
+    <!-- dialog -->
+    <string name="dialog_title">提示</string>
+    <string name="dialog_yes">是</string>
+    <string name="dialog_no">否</string>
+    <!-- main -->
+    <string name="logout">未登录</string>
+    <string name="menu_garage">车库</string>
+    <string name="menu_points">积分</string>
+    <string name="menu_balance">余额</string>
+    <string name="menu_carInsurance">车险</string>
+    <string name="menu_violation">违章</string>
+    <string name="menu_oilPrice">油价</string>
+    <string name="exit_warn">再按一次退出程序</string>
+    <!-- setting -->
+    <string name="setting_account">我的账户</string>
+    <string name="setting_cars">我的车</string>
+    <string name="setting_notice">通知</string>
+    <string name="setting_message">推送消息</string>
+    <string name="setting_clearcache">清除缓存</string>
+    <string name="setting_update">检测新版本</string>
+    <string name="setting_advise">意见反馈</string>
+    <string name="setting_about">关于</string>
+    <string name="dialog_cache_content">确定要清除缓存吗</string>
+    <string name="clearcache_success">清除缓存成功！</string>
+    <!-- setting account -->
+    <string name="account_name">账号名</string>
+    <string name="account_phone">手机号</string>
+    <string name="account_button">退出登录</string>
+    <string name="dialog_account_content">确定要退出当前账号吗？</string>
+    <!-- setting advise -->
+    <string name="advise_content">您的意见或建议：</string>
+    <string name="advise_contenthint">请输入您的建议</string>
+    <string name="advise_email">您的联系邮箱：</string>
+    <string name="advise_emailhint">请输入您的邮箱</string>
+    <string name="advise_button">提交反馈</string>
+    <string name="advise_success">提交成功！</string>
+    <!-- setting about -->
+    <string name="about_version">版本：1.0</string>
+    <string name="about_info">广州多大科技有限公司</string>
+    <string name="about_email">联系邮箱：duodda@163.com</string>
+    <!-- setting notice -->
+    <string name="notice_unread">未读</string>
+    <string name="notice_read">已读</string>
+    <!-- push notice -->
+    <string name="notice_titlebar_title">详情</string>
+    <!-- balance -->
+    <string name="balance_bar_title">余额</string>
+    <string name="balance_detailed_record">多大商店</string>
+    <!-- oil -->
+    <string name="oil_location">最近/指定</string>
+    <string name="oil_one">汽油92</string>
+    <string name="oil_two">汽油93</string>
+    <string name="oil_three">汽油97</string>
+    <string name="oill_location_not_found">请打开位置服务。</string>
+    <string name="oil_shop_not_found">没有找到油站信息</string>
+    <string name="oil_distance">导航</string>
+    <string name="oil_distance_km">0.00 公里</string>
+    <string name="oil_icon_star">the star icon</string>
+    <string name="oil_nearby_station">附近</string>
+    <!-- violation -->
+
+
+    <!-- garage -->
+    <string name="garage_title">车库</string>
+    <string name="garage_plate">车牌：</string>
+    <string name="garage_model">车型：</string>
+    <string name="garage_fuel_consumption">排量：</string>
+    <string name="garage_vin">VIN码：</string>
+    <string name="garage_price">价钱：</string>
+    <string name="garage_maintenance_time">最后维护时间：</string>
+    <string name="garage_tyrestatus">轮胎状况：</string>
+    <string name="garage_brakestatus">刹车状况：</string>
+    <string name="garage_mileage">里程：</string>
+    <string name="garage_insurancerenewmonth">保险月：</string>
+    <string name="plate_num">粤A</string>
+    <string name="garage_engine_umber">发动机号：</string>
+    <string name="garage_brand">品牌：</string>
+    <string name="garage_update">更新</string>
+
+    <!-- map nav -->
+    <string name="start_title">示例代码</string>
+    <string name="base_function">基本功能</string>
+    <string name="hud_title">HUD显示</string>
+    <string name="navibar_title">路径规划</string>
+    <string name="navi_car">驾车</string>
+    <string name="navi_foot">步行</string>
+    <string name="start_hud_navi">HUD显示</string>
+    <string name="complex_function">综合展示</string>
+    <string name="navi_empty_car">"驾   车"</string>
+    <string name="navi_empty_foot">"步   行"</string>
+    <string name="navi_start">"起    点"</string>
+    <string name="navi_middle">途经点</string>
+    <string name="navi_end">"终    点"</string>
+    <string name="navi_strategy">"策    略"</string>
+    <string name="navi_route">路径规划</string>
+    <string name="navi_navi">模拟导航</string>
+    <string name="start_navi_navi">实时导航</string>
+    <string name="navi_strategy_speed">速度最快</string>
+    <string name="navi_strategy_cost">避免收费</string>
+    <string name="navi_strategy_distance">距离最短</string>
+    <string name="navi_strategy_nohighway">不走高速快速路</string>
+    <string name="navi_strategy_timenojam">时间最短且躲避拥堵</string>
+    <string name="navi_strategy_costnojam">避免收费且躲避拥堵</string>
+    <string name="theme_blue">经典蓝</string>
+    <string name="theme_pink">可爱粉</string>
+    <string name="theme_white">简约白</string>
+    <string name="setting">设置</string>
+    <string name="day">白天</string>
+    <string name="night">夜间</string>
+    <string name="yes">"  是  "</string>
+    <string name="no">"  否  "</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="daynightmode">"昼夜模式    "</string>
+    <string name="deviationrecalculation">"偏航重算    "</string>
+    <string name="jamrecalculation">"拥堵重算    "</string>
+    <string name="trafficbroadcast">"交通播报    "</string>
+    <string name="camerabroadcast">摄像头播报</string>
+    <string name="screenon">"屏幕常亮    "</string>
+    <string name="routeshow">线路展示</string>
+    <string name="tapmap">点击地图设置</string>
+    <string name="starttapmap">我的位置（可点击地图设置）</string>
+    <string name="walkdescription">步行状态不可用</string>
+    <string name="routeinfo">全程   --公里/--分钟    收费 --元</string>
+    <string name="routeinfo_1">全程 </string>
+    <string name="routeinfo_2">公里/</string>
+    <string name="routeinfo_3">"分钟    收费"</string>
+    <string name="routeinfo_4">元</string>
+    <string name="routeinfo_default">--</string>
+    <string name="app_id">5450c015</string>
+    <string name="mypoistion">我的位置</string>
+    <string name="mappoistion">地图点选</string>
+    <string name="positioninfo">位置信息</string>
+
+    <string-array name="preference_values_tts_role">
+        <item>xiaoyan</item>
+        <item>xiaoyu</item>
+        <item>vixy</item>
+        <item>vixq</item>
+        <item>vixf</item>
+        <item>vixm</item>
+        <item>vixl</item>
+        <item>vixr</item>
+        <item>vixyun</item>
+        <item>vixk</item>
+        <item>vixqa</item>
+        <item>vixying</item>
+        <item>vixx</item>
+        <item>vinn</item>
+        <item>vils</item>
+    </string-array>
+
+    <!-- <string name="preference_default_tts_role">xiaoyan</string> -->
+    <string name="preference_default_tts_role">xiaomei</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_title_tts_speed">语速</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="preference_dialog_title_tts_speed">选择语速</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_title_tts_volume">音量</string>
+    <string name="preference_default_tts_volume">50</string>
+    <string name="preference_dialog_title_tts_volume">选择音量</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <string name="preference_title_tts_pitch">语调</string>
+    <string name="preference_default_tts_pitch">50</string>
+
+    <!-- bonus_point_balance wash list -->
+    <string name="bonus_point_balance_bar_text">桔子币余额</string>
+    <string name="record_bar_text">通用桔子币记录</string>
+    <string name="bonus_point_balance_string_date_text">桔子币有效期</string>
+    <string name="string_distance">距离</string>
+    <string name="string_balance">余额</string>
+
+    <!-- bonuspoint shoprecord -->
+    <string name="bonus_point_record_bar_text">店铺消费记录</string>
+    <string name="string_bonus_point_text">桔子币</string>
+    <string name="record_shopname">奥宝汽车美容护理中心</string>
+    <string name="string_consume">消费</string>
+    <string name="string_gain">获得</string>
+    <string name="string_item">项目</string>
+    <string name="record_consume">235</string>
+    <string name="record_balance">1257</string>
+    <string name="record_acquire">1257</string>
+
+    <!-- search edittext -->
+    <string name="search_edit_hint">搜索店鋪</string>
+    <!-- shoplist  店铺列表 -->
+    <string name="shoplist_tb">搜索店铺</string>
+    <string name="shoplist_distance">距离</string>
+    <string name="shoplist_normalwash">洗车:</string>
+    <string name="shoplist_highwash">精品洗车:</string>
+    <!-- shoplist item -->
+    <string name="shopitem_distance">距离</string>
+    <!-- shopdetail -->
+    <string name="shopdetail_tb">店铺详情</string>
+    <string name="shopdetail_wash">洗车：</string>
+    <string name="shopdetail_highwash">精品洗车：</string>
+    <string name="shopdetail_map">导航</string>
+    <string name="shopdetail_call">联系</string>
+    <!-- addcar window -->
+    <string name="addcar_win_camera">拍照添加</string>
+    <string name="addcar_win_pic">从图片添加</string>
+    <string name="addcar_win_handle">手动输入</string>
+    <string name="addcar_win_close">算了,稍后再添加</string>
+    <!-- customer 会员套餐 -->
+    <string name="customer_tb">会员套餐</string>
+    <string name="customer_packagenum">套餐数量</string>
+    <string name="customer_shopnum">套餐店铺</string>
+    <string name="customer_selectshop">选择店铺</string>
+    <!-- customer item -->
+    <string name="customeritem_detail">消费详细</string>
+    <string name="customeritem_name">项目</string>
+    <string name="customeritem_num">数量</string>
+    <string name="customeritem_remain">剩余</string>
+    <string name="customeritem_effdate">有效期</string>
+    <!-- customer shoplist -->
+    <string name="customer_shoplist_tb">选择店铺</string>
+    <!-- customer spendlist -->
+    <string name="customer_spendlist_tb">会员套餐消费详细</string>
+    <!-- carinsurance -->
+    <string name="carinsurance_tb">车险问卷</string>
+    <!-- local_city -->
+    <string name="local_city_bar_text">城市选择</string>
+    <string name="local_city_current_text">当前选择城市</string>
+    <string name="local_city_location_text">定位城市</string>
+    <string name="local_city_hot_text">热门城市</string>
+    <string name="local_city_search_text">输入你所在的城市</string>
+    <!-- question -->
+    <string name="question_next">下一题</string>
+    <string name="question_info">问题</string>
+
+    <!-- carinsurance setting -->
+    <string name="carinsurance_totalprice">计算车险总价</string>
+    <string name="carinsurance_company">保险公司</string>
+    <string name="carinsurance_selcompany">选择保险公司</string>
+    <string name="carinsurance_platenum">车牌</string>
+    <string name="carinsurance_selplatenum">选择你的爱车</string>
+    <string name="carinsurance_one">交强险/车船税</string>
+    <string name="carinsurance_two">车损税</string>
+    <string name="carinsurance_amount">投保：</string>
+    <string name="carinsurance_selamount">选择投保金额</string>
+    <string name="carinsurance_checktext">【不计免赔】</string>
+    <!-- insurance amount -->
+    <string name="insurance_amount_tb">投保金额设定</string>
+    <string name="insurance_amount_info">按大小选择金额</string>
+    <!-- cal price -->
+    <string name="calprice_close">好的，知道了</string>
+    <!-- breakrules search -->
+    <string name="breakrules_search_tb">违章查询</string>
+    <string name="breakrules_search_city">查询城市：</string>
+    <string name="breakrules_search_selcity">选择所在城市</string>
+    <string name="breakrules_search_platenum">输入车牌：</string>
+    <string name="breakrules_search_platehint">填写车牌号</string>
+    <string name="breakrules_search_enginenum">发动机号：</string>
+    <string name="breakrules_search_enginehint">填写发动机号</string>
+    <string name="breakrules_search_framenum">车架号：</string>
+    <string name="breakrules_search_framehint">填写车架号</string>
+    <string name="breakrules_search_remark">所填信息为当地交管局查询所必须信息，我们将对您的信息严格保密，请放心填写</string>
+    <string name="breakrules_search_btn">查询</string>
+    <!-- main -->
+    <string name="main_breakrules_search">违章查询</string>
+    <string name="main_breakrules_info">恭喜你，没有违章信息</string>
+    <!-- price -->
+    <string name="price_yuan">元</string>
+    <string name="price_header">保费参考价</string>
+    <string name="price_car">投保车辆：</string>
+    <string name="price_company">投保公司:</string>
+    <!-- breakrules info -->
+    <string name="breakrules_info_platenum">车牌：</string>
+    <string name="breakrules_info_model">车型：</string>
+    <string name="breakrules_info_brand">品牌：</string>
+    <string name="breakrules_info_name">姓名：</string>
+    <string name="breakrules_info_oil">油品：</string>
+    <string name="breakrules_info_tb">违章信息</string>
+    <string name="breakrules_info_fine">罚款金额</string>
+    <string name="breakrules_info_deduct">扣分情况</string>
+    <string name="breakrules_info_time">违章时间：</string>
+    <string name="breakrules_info_info">违章情况</string>
+    <string name="breakrules_info_province">车管所</string>
+    <string name="breakrules_info_place">违章地点</string>
+</resources>

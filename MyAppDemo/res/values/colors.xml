@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg">#FFFFFF</color>
+    <color name="juse">#FDA800</color>
+    <color name="juse2">#FF9D23</color>
+    <color name="red">#FF0000</color>
+    <color name="blue">#B0D5FF</color>
+    <color name="blue2">#3F8CC8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="green">#5AC100</color>
+    <color name="gray">#EEEEEE</color>
+    <color name="borderColor">#DDDDDD</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="transparent">#00000000</color>
+    <color name="breakrulesbottom">#DDDDDD</color>
+    <color name="tbfont">#FCFCFF</color>
+    <!-- shop item -->
+    <color name="bluefont">#4A4F70</color>
+    <color name="blackfont">#666666</color>
+    <color name="grayfont">#999999</color>
+    <color name="orangefont">#CA614B</color>
+    <!-- car info -->
+    <color name="line">#FFF2A9</color>
+    <color name="car_info_grayfont">#C1C4D6</color>
+    <!-- customer -->
+    <color name="customer_orangefont">#EA614B</color>
+    <color name="customer_blackfont">#333333</color>
+    <!-- bonuspoint_record -->
+    <color name="bonuspoint_red">#F65857</color>
+    <color name="bonuspoint_crimsonfont">#EA614B</color>
+    <color name="bonuspoint_redfont">#FA565A</color>
+    <color name="bonuspoint_green">#4FBE21</color>
+    <color name="bonuspoint_greenfont">#43BD44</color>
+    <color name="lightbluefont">#698AFE</color>
+    <color name="bonuspoint_divider">#CCCCCC</color>
+    <color name="violet">#6A87FF</color>
+    <color name="yellowfont">#FFE32A</color>
+    <!-- bonuspoint_balance -->
+    <color name="bonuspoint_balance_gray">#EEEEEE</color>
+    <!-- cars_select -->
+    <color name="cars_select_whitefont">#FEFEFE</color>
+	<!-- plate_select -->
+    <color name="cars_select_line">#FFF2A9</color>
+    
+</resources>

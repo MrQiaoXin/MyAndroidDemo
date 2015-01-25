@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="55.125dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55.125dp"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/plate_prefix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11.25dp"
+            android:text="车牌前缀"
+            android:textColor="@color/blackfont"
+            android:textSize="13.5sp" />
+
+        <ImageView
+            android:id="@+id/is_select"
+            android:layout_width="28.125dp"
+            android:layout_height="28.125dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12.375dp"
+            android:layout_marginTop="13.5dp"
+            android:background="@drawable/ic_selected"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>
