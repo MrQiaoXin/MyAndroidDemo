@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
-    private Button button;
+    private Button button,toCarmerSecond;
     private TextView btn_select_plate, btn_select_city;
     private TextView dataSelected;
     private Button goToLocationManager;
@@ -70,6 +70,17 @@ public class MainActivity extends Activity {
             public void onClick(View arg0) {
                 Intent it = new Intent();
                 it.setClass(getApplicationContext(), LocationManagerActivity.class);
+                startActivity(it);
+                finish();
+            }
+        });
+        toCarmerSecond=(Button)findViewById(R.id.go_to_camera_se);
+        toCarmerSecond.setOnClickListener(new OnClickListener() {
+            
+            @Override
+            public void onClick(View arg0) {
+                Intent it = new Intent();
+                it.setClass(getApplicationContext(), MyCameraSecondActivity.class);
                 startActivity(it);
                 finish();
             }
