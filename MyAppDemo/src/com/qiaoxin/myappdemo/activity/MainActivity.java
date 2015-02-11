@@ -1,5 +1,11 @@
 package com.qiaoxin.myappdemo.activity;
 
+import java.io.File;
+
+import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiscCache;
+import com.nostra13.universalimageloader.core.ImageLoader;
+import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
+import com.nostra13.universalimageloader.utils.StorageUtils;
 import com.qiaoxin.myappdemo.utils.DateTimePickDialogUtil;
 
 import android.app.Activity;
@@ -12,7 +18,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
-    private Button button,toCarmerSecond;
+    private Button button, toCarmerSecond, btnDownloadImage;
     private TextView btn_select_plate, btn_select_city;
     private TextView dataSelected;
     private Button goToLocationManager;
@@ -65,7 +71,7 @@ public class MainActivity extends Activity {
         });
         goToLocationManager = (Button) findViewById(R.id.go_to_location_manager);
         goToLocationManager.setOnClickListener(new OnClickListener() {
-            
+
             @Override
             public void onClick(View arg0) {
                 Intent it = new Intent();
@@ -74,13 +80,24 @@ public class MainActivity extends Activity {
                 finish();
             }
         });
-        toCarmerSecond=(Button)findViewById(R.id.go_to_camera_se);
+        toCarmerSecond = (Button) findViewById(R.id.go_to_camera_se);
         toCarmerSecond.setOnClickListener(new OnClickListener() {
-            
+
             @Override
             public void onClick(View arg0) {
                 Intent it = new Intent();
                 it.setClass(getApplicationContext(), MyCameraSecondActivity.class);
+                startActivity(it);
+                finish();
+            }
+        });
+        btnDownloadImage = (Button) findViewById(R.id.go_to_image_download);
+        btnDownloadImage.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                Intent it = new Intent();
+                it.setClass(getApplicationContext(), ImageDownloadActivity.class);
                 startActivity(it);
                 finish();
             }
@@ -101,4 +118,5 @@ public class MainActivity extends Activity {
             break;
         }
     }
+
 }
