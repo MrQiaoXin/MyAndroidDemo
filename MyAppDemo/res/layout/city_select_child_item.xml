@@ -11,12 +11,12 @@
         android:background="@color/white" >
 
         <TextView
-            android:id="@+id/plate_prefix"
+            android:id="@+id/city_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginLeft="11.25dp"
-            android:text="车牌前缀"
+            android:text=""
             android:textColor="@color/blackfont"
             android:textSize="13.5sp" />
 

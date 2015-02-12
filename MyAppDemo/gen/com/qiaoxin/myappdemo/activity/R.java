@@ -191,6 +191,8 @@ public final class R {
     public static final class id {
         public static final int button1=0x7f090000;
         public static final int button2=0x7f090001;
+        public static final int city_list=0x7f09001c;
+        public static final int city_name=0x7f09001d;
         public static final int datePicker1=0x7f090003;
         public static final int distance=0x7f09000f;
         public static final int editText1=0x7f090010;
@@ -210,8 +212,8 @@ public final class R {
         public static final int lng=0x7f09000b;
         public static final int lng2=0x7f09000d;
         public static final int myExpandableListView1=0x7f090006;
-        public static final int plate_prefix=0x7f09001d;
-        public static final int prefix_list=0x7f09001c;
+        public static final int plate_prefix=0x7f090020;
+        public static final int prefix_list=0x7f09001f;
         public static final int province=0x7f09001e;
         public static final int quickSlideBar1=0x7f090007;
         public static final int slideBar=0x7f090018;

@@ -43,6 +43,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View view) {
                 Intent it = new Intent();
+                it.putExtra("initCityName", btn_select_city.getText().toString());
                 it.setClass(getApplicationContext(), CitySelectActivity.class);
                 startActivityForResult(it, 2);
             }
