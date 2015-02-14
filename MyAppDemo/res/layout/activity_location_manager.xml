@@ -30,7 +30,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="30dp"
-        android:layout_toRightOf="@+id/lat2"
+        android:layout_toRightOf="@+id/lat"
         android:text="0" />
 
     <TextView
@@ -60,7 +60,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="60dp"
-        android:layout_toRightOf="@+id/lat"
+        android:layout_toRightOf="@+id/lat2"
         android:text="0" />
 
     <TextView
