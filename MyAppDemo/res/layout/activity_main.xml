@@ -62,12 +62,31 @@
         android:text="高德定位" />
 
     <Button
+        android:id="@+id/pop_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/go_to_image_download"
+        android:layout_alignBottom="@+id/go_to_image_download"
+        android:layout_alignLeft="@+id/go_to_camera"
+        android:layout_marginLeft="22dp"
+        android:text="text显示" />
+
+    <Button
         android:id="@+id/go_to_image_download"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignLeft="@+id/go_to_camera_se"
         android:layout_below="@+id/go_to_camera_se"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="29dp"
         android:text="图片异步下载" />
+
+    <Button
+        android:id="@+id/go_to_fade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/go_to_image_download"
+        android:layout_below="@+id/go_to_image_download"
+        android:layout_marginTop="22dp"
+        android:text="淡入淡出" />
 
 </RelativeLayout>

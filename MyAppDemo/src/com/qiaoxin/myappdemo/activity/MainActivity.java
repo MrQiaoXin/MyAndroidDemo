@@ -18,7 +18,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
-    private Button button, toCarmerSecond, btnDownloadImage;
+    private Button button, toCarmerSecond, btnDownloadImage, btn_textpop, btn_fadeAnim;
     private TextView btn_select_plate, btn_select_city;
     private TextView dataSelected;
     private Button goToLocationManager;
@@ -27,6 +27,17 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        btn_textpop = (Button) findViewById(R.id.pop_text);
+        btn_textpop.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                Intent it = new Intent();
+                it.setClass(getApplicationContext(), PopTextActivity.class);
+                startActivityForResult(it, 1);
+            }
+        });
+
         btn_select_plate = (TextView) findViewById(R.id.go_to_plate);
         btn_select_plate.setOnClickListener(new OnClickListener() {
 
@@ -101,6 +112,16 @@ public class MainActivity extends Activity {
                 it.setClass(getApplicationContext(), ImageDownloadActivity.class);
                 startActivity(it);
                 finish();
+            }
+        });
+        btn_fadeAnim=(Button)findViewById(R.id.go_to_fade);
+        btn_fadeAnim.setOnClickListener(new OnClickListener() {
+            
+            @Override
+            public void onClick(View arg0) {
+                Intent it = new Intent();
+                it.setClass(getApplicationContext(), AnimActivity.class);
+                startActivity(it);
             }
         });
     }

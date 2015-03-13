@@ -69,7 +69,7 @@
     <string name="account_info_bar_title">账户信息</string>
     <!--
     <string name="account_name">姓名</string>
-    <string name="account_phone">手机号码</string>
+    <string name="account_phone">手机号码</string>
     -->
     <string name="account_cars">汽车列表</string>
     <string name="account_logout_btn">注销</string>
@@ -445,4 +445,6 @@
     <string name="breakrules_info_info">违章情况</string>
     <string name="breakrules_info_province">车管所</string>
     <string name="breakrules_info_place">违章地点</string>
+    <string name="testString">abcdefghijklmnopqrstuvwtuvwxyz占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符占位符</string>
+
 </resources>
