@@ -67,7 +67,6 @@ public class MainActivity extends Activity {
                 Intent it = new Intent();
                 it.setClass(getApplicationContext(), MyCameraActivity.class);
                 startActivity(it);
-                finish();
             }
         });
 
@@ -89,7 +88,6 @@ public class MainActivity extends Activity {
                 Intent it = new Intent();
                 it.setClass(getApplicationContext(), LocationManagerActivity.class);
                 startActivity(it);
-                finish();
             }
         });
         toCarmerSecond = (Button) findViewById(R.id.go_to_camera_se);
@@ -100,7 +98,6 @@ public class MainActivity extends Activity {
                 Intent it = new Intent();
                 it.setClass(getApplicationContext(), MyCameraSecondActivity.class);
                 startActivity(it);
-                finish();
             }
         });
         btnDownloadImage = (Button) findViewById(R.id.go_to_image_download);
@@ -111,12 +108,11 @@ public class MainActivity extends Activity {
                 Intent it = new Intent();
                 it.setClass(getApplicationContext(), ImageDownloadActivity.class);
                 startActivity(it);
-                finish();
             }
         });
-        btn_fadeAnim=(Button)findViewById(R.id.go_to_fade);
+        btn_fadeAnim = (Button) findViewById(R.id.go_to_fade);
         btn_fadeAnim.setOnClickListener(new OnClickListener() {
-            
+
             @Override
             public void onClick(View arg0) {
                 Intent it = new Intent();

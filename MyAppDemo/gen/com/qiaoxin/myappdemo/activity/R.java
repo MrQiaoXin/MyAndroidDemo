@@ -200,12 +200,12 @@ public final class R {
         public static final int animtext=0x7f0a0001;
         public static final int button1=0x7f0a0002;
         public static final int button2=0x7f0a0003;
-        public static final int city_list=0x7f0a002b;
-        public static final int city_name=0x7f0a002c;
+        public static final int city_list=0x7f0a002c;
+        public static final int city_name=0x7f0a002d;
         public static final int datePicker1=0x7f0a0005;
         public static final int distance=0x7f0a0015;
         public static final int editText1=0x7f0a0016;
-        public static final int first=0x7f0a0026;
+        public static final int first=0x7f0a0027;
         public static final int go_to_camera=0x7f0a0017;
         public static final int go_to_camera_se=0x7f0a0019;
         public static final int go_to_city=0x7f0a001a;
@@ -216,7 +216,7 @@ public final class R {
         public static final int ib_arrow=0x7f0a0023;
         public static final int imageView1=0x7f0a000a;
         public static final int imageview=0x7f0a0004;
-        public static final int is_select=0x7f0a002a;
+        public static final int is_select=0x7f0a002b;
         public static final int lat=0x7f0a000f;
         public static final int lat2=0x7f0a0012;
         public static final int list=0x7f0a001f;
@@ -224,12 +224,12 @@ public final class R {
         public static final int lng=0x7f0a0011;
         public static final int lng2=0x7f0a0013;
         public static final int myExpandableListView1=0x7f0a000c;
-        public static final int plate_prefix=0x7f0a002f;
+        public static final int plate_prefix=0x7f0a0030;
         public static final int pop_text=0x7f0a001c;
-        public static final int prefix_list=0x7f0a002e;
-        public static final int province=0x7f0a002d;
+        public static final int prefix_list=0x7f0a002f;
+        public static final int province=0x7f0a002e;
         public static final int quickSlideBar1=0x7f0a000d;
-        public static final int second=0x7f0a0027;
+        public static final int second=0x7f0a0028;
         public static final int slideBar=0x7f0a0020;
         public static final int start_anim=0x7f0a0000;
         public static final int text1=0x7f0a0006;
@@ -242,9 +242,10 @@ public final class R {
         public static final int textpop=0x7f0a0021;
         public static final int tv1=0x7f0a0024;
         public static final int tv2=0x7f0a0025;
-        public static final int tv_city_name=0x7f0a0028;
+        public static final int tv_city_name=0x7f0a0029;
         public static final int tv_main=0x7f0a0022;
-        public static final int tv_province_name=0x7f0a0029;
+        public static final int tv_province_name=0x7f0a002a;
+        public static final int tv_splash_first=0x7f0a0026;
     }
     public static final class layout {
         public static final int activity_anim=0x7f030000;
@@ -258,14 +259,15 @@ public final class R {
         public static final int activity_main=0x7f030008;
         public static final int activity_plate_select=0x7f030009;
         public static final int activity_poptext=0x7f03000a;
-        public static final int amin_textview=0x7f03000b;
-        public static final int city_item=0x7f03000c;
-        public static final int city_select_child=0x7f03000d;
-        public static final int city_select_child_item=0x7f03000e;
-        public static final int city_select_group=0x7f03000f;
-        public static final int plate_select_child=0x7f030010;
-        public static final int plate_select_child_item=0x7f030011;
-        public static final int plate_select_group=0x7f030012;
+        public static final int activity_splash=0x7f03000b;
+        public static final int amin_textview=0x7f03000c;
+        public static final int city_item=0x7f03000d;
+        public static final int city_select_child=0x7f03000e;
+        public static final int city_select_child_item=0x7f03000f;
+        public static final int city_select_group=0x7f030010;
+        public static final int plate_select_child=0x7f030011;
+        public static final int plate_select_child_item=0x7f030012;
+        public static final int plate_select_group=0x7f030013;
     }
     public static final class menu {
         public static final int main=0x7f090000;
