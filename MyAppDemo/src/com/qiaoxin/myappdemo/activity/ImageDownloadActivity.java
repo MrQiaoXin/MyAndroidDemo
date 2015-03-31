@@ -20,7 +20,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class ImageDownloadActivity extends Activity {
+public class ImageDownloadActivity extends BaseActivity {
 
     private ImageView image;
     private Button downBtn;
@@ -29,6 +29,7 @@ public class ImageDownloadActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_download);
+        initGesture(R.id.ac_image_download);
         initImageLoader();
         initView();
     }
