@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="@drawable/example_sharp"
+        android:editable="false"
+        android:gravity="right|bottom" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/orange_selector"
+        android:text="++" />
+
+</LinearLayout>

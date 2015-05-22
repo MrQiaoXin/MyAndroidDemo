@@ -24,12 +24,13 @@
 
     <Button
         android:id="@+id/go_to_camera_se"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_alignBaseline="@+id/go_to_camera"
         android:layout_alignBottom="@+id/go_to_camera"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="27dp"
+        android:background="@drawable/white_selector"
         android:text="压缩图片" />
 
     <TextView

@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="12"
-        android:targetSdkVersion="16" />
+        android:targetSdkVersion="20" />
     <!-- amap permission -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -64,6 +64,10 @@
         <activity android:name=".PopTextActivity" >
         </activity>
         <activity android:name=".AnimActivity" >
+        </activity>
+        <activity
+            android:name=".JiSuanjiActivity"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
         </activity>
     </application>
 
